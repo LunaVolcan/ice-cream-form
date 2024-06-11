@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms Exercise</title>
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+	<h1>I Scream For Ice Cream!</h1>
+	<div class="wrapper">
+		<form id="form" accept-charset="UTF-8" action="#" method="POST">
+			<div class="form-group">
+				<label for="fname">Name:</label>
+				<input type="text" id="fname" name="fname">
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="phone-number">Phone:</label>
+				<input type="text" id="phone-number" name="phone-number">
+			</div>
+			<div class="form-group">
+				<div class="flavor">
+				<label for="flavor">Ice Cream Flavor:</label>
+				</div>
+				<select name="flavor" id="flavor">
+					<option value="placeholder">Please choose an option</option>
+					<option value="gt">Green Tea</option>
+					<option value="pistachio">Pistachio</option>
+					<option value="butterp">Butter Pecan</option>
+				</select>
+			</div>
+			<div class="alignment">
+			<div class="form-group">
+				<label>Cup or cone?</label>
+				<div class="radio-group">
+					<div class="radio-btn">
+					<input type="radio" id="cone" name="cup-or-cone" value="cone">
+				<label for="cone">Cone</label>
+					</div>
+					<div class="radio-btn">
+					<input type="radio" id="cup" name="cup-or-cone" value="cup">
+					<label for="cup">Cup</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>What toppings would you like?</label>
+				<div class="checkbox-group">
+					<div class="checkbox-align">
+					<input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
+					<label for="sprinkles">Sprinkles</label>
+					</div>
+					<div class="checkbox-align">
+					<input type="checkbox" id="fruit" name="fruit" value="fruit">
+					<label for="fruit">Fruit</label>
+					</div>
+					<div class="checkbox-align">
+					<input type="checkbox" id="hot-fudge" name="hot-fudge" value="hot-fudge">
+					<label for="hot-fudge">Chocolate</label>
+					</div>
+				</div>
+				</div>
+			</div>
+			<button type="submit">Place Order</button>
+		</form>
+	</div>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

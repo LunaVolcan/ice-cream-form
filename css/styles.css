@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Tenor+Sans&display=swap");
+/* SEE PROPERTY/VALUE PAIRS BELOW: */
+/* font-family: "Tenor Sans", sans-serif; */
+/* /* font-family: "Paytone One", sans-serif;  */
+body {
+	font-family: "paytone";
+	background-color: #f5d6b3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 1rem;
+	flex-direction: column;
+	text-align: center;
+}
+
+h1 {
+	color: #f122ff;
+	font-family: "Paytone One";
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	border-radius: 10px;
+	background: #0393b3;
+	padding: 3rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 450px;
+}
+
+label {
+	color: #efefef;
+	padding-right: 1rem;
+}
+
+input[type="text"] {
+	border: #0393b3 1px solid;
+	margin: 0.5rem;
+	padding: 0.2rem;
+	height: 1.2rem;
+	width: 350px;
+	border-radius: 5px;
+}
+
+select {
+	border: #0393b3 1px solid;
+	margin: 0.5rem;
+	padding: 0.2rem;
+	width: 450px;
+	border-radius: 5px;
+	height: 2rem;
+}
+.flavor {
+	text-align: left;
+}
+
+.form-group {
+	margin-bottom: .8rem;
+}
+
+.alignment {
+	/* 	border: black 1px solid; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.radio-group {
+	/* 	border: solid 1px black; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.checkbox-group {
+	/* 	border: solid 1px black; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+}
+
+button {
+	margin-top: 1rem;
+	background: #efefef;
+	color: #0393b3;
+	border: 1px solid #38a3a5;
+	padding: 1rem;
+	border-radius: 10px;
+}
